@@ -1,0 +1,24 @@
+{
+  "commissions": [
+    {
+      "name": "nameOne",
+      "preview": "previewOne"
+    },
+    {
+      "name": "nameTwo",
+      "preview": "previewTwo"
+    }
+  ],
+  "raffle": [
+    {
+      "name": "tori",
+      "preview": "tori's profile"
+    }
+  ],
+  "free": [
+    {
+      "name": "grym",
+      "preview": "grym's profile"
+    }
+  ]
+}
