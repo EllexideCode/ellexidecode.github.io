@@ -6,7 +6,7 @@ var curIndex, images;
   }));
 
   function hello() {
-    $.getJSON("./scripts/profiles.json", function(result) {
+    $.getJSON("https://ellexidecode.github.io/scripts/profiles.json", function(result) {
       $.each(result, function(field) {
         console.log("appending...");
         var size = result[field].length;
