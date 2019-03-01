@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-var curIndex, images, clicked = 0;
+var curIndex, images;
 
   $("body").append($("<div />", {
     id: "tooltips"
@@ -10,7 +10,6 @@ var curIndex, images, clicked = 0;
       dataType: 'json',
       success: function(data) {
         $.each(data, function(field) {
-          console.log("appending...");
           var size = data[field].length;
           $("#gallery .scroller").append($("<h2>", {
             html: `${field} &nbsp &nbsp <i class="blurple">${size}</i>`
@@ -22,10 +21,12 @@ var curIndex, images, clicked = 0;
           if(field !== "free") {
             for(i = 0; i < size; ++i){
               var picture = data[`${field}`][i]['preview'];
+              var background = data[`${field}`][i]['background'];
+
               $("<div />", {
                 class: `item ${field}`,
                 img: picture,
-                style: `background-image: url(${picture})`,
+                style: `background-image: url(${background})`,
                 name: data[`${field}`][i]['name'],
                 click: function() {
                   curIndex = $(this).index();
@@ -104,9 +105,11 @@ var curIndex, images, clicked = 0;
           } else {
             for(i = 0; i < size; ++i){
               var picture = data[`${field}`][i]['preview'];
+              var background = data[`${field}`][i]['background'];
+
               $("<div />", {
                 class: `item ${field}`,
-                style: `background-image: url(${picture})`,
+                style: `background-image: url(${background})`,
                 img: picture,
                 name: data[`${field}`][i]['name'],
                 code: data[`${field}`][i]['code'],
@@ -133,6 +136,11 @@ var curIndex, images, clicked = 0;
                   $("<div />", {
                     id: "gallExit",
                     click: function() {
+                      $("#code").fadeOut(200);
+                      setTimeout(function(){
+                        $("#code").remove();
+                      }, 200);
+
                       $("#gallOverlay").fadeOut(200);
                         setTimeout(function(){
                         $("#gallOverlay").remove();
@@ -143,6 +151,11 @@ var curIndex, images, clicked = 0;
                   $("<div />", {
                     class: "prev",
                     click: function() {
+                      $("#code").fadeOut(200);
+                      setTimeout(function(){
+                        $("#code").remove();
+                      }, 200);
+
                       if(curIndex !== 0) {
                       --curIndex;
                       changePicture(curIndex)
@@ -262,6 +275,11 @@ var curIndex, images, clicked = 0;
                   $("<div />", {
                     class: "next",
                     click: function() {
+                      $("#code").fadeOut(200);
+                      setTimeout(function(){
+                        $("#code").remove();
+                      }, 200);
+
                       if(curIndex !== (images - 1)) {
                         ++curIndex;
                         changePicture(curIndex)
