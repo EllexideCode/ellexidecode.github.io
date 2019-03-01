@@ -9,10 +9,10 @@ var curIndex, images, clicked = 0;
     $.ajax({
       url: "https://ellexidecode.github.io/scripts/profiles.json", 
       dataType: 'json',
-      success: function(result) {
-        $.each(result, function(field) {
+      success: function(data) {
+        $.each(data, function(field) {
           console.log("appending...");
-          var size = result[field].length;
+          var size = data[field].length;
           $("#gallery .scroller").append($("<h2>", {
             html: `${field} &nbsp &nbsp <i class="blurple">${size}</i>`
           }));
@@ -22,12 +22,12 @@ var curIndex, images, clicked = 0;
           }));
           if(field !== "free") {
             for(i = 0; i < size; ++i){
-              var picture = result[`${field}`][i]['preview'];
+              var picture = data[`${field}`][i]['preview'];
               $("<div />", {
                 class: `item ${field}`,
                 img: picture,
                 style: `background-image: url(${picture})`,
-                name: result[`${field}`][i]['name'],
+                name: data[`${field}`][i]['name'],
                 click: function() {
                   curIndex = $(this).index();
                   images = $(`.item.${field}`).length;
@@ -100,17 +100,17 @@ var curIndex, images, clicked = 0;
                   $(".tooltip").remove();
                 }
               }).appendTo(`.flexBox.${field}`);
-              // `Profile owner: ${result[`${field}`][i]['name']} || Preview: ${result[`${field}`][i]['preview']}`
+              // `Profile owner: ${data[`${field}`][i]['name']} || Preview: ${data[`${field}`][i]['preview']}`
             }
           } else {
             for(i = 0; i < size; ++i){
-              var picture = result[`${field}`][i]['preview'];
+              var picture = data[`${field}`][i]['preview'];
               $("<div />", {
                 class: `item ${field}`,
                 style: `background-image: url(${picture})`,
                 img: picture,
-                name: result[`${field}`][i]['name'],
-                code: result[`${field}`][i]['code'],
+                name: data[`${field}`][i]['name'],
+                code: data[`${field}`][i]['code'],
                 click: function() {
                   curIndex = $(this).index();
                   images = $(`.item.${field}`).length;
