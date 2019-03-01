@@ -294,6 +294,7 @@ var curIndex, images, clicked = 0;
       },
       error: function(){
         console.log("LMFAO RIP");
+        console.error();
       }
     });
 
