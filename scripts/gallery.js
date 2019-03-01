@@ -296,12 +296,4 @@ var curIndex, images, clicked = 0;
         console.error();
       }
     });
-
-      /*$(".button").click(function(){
-        console.log('click');
-        if($(this).attr("opens") == "#gallery" && clicked == 0) {
-          hello();
-          clicked++;
-        }
-      });*/
 });

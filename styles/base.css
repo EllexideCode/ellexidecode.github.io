@@ -248,6 +248,7 @@ body {
   height: 100%;
   width: calc(100% + 1vw);
   padding: 5vh;
+  font-family: monospace;
 }
 
 #code .choices {
