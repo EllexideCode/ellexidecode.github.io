@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-var curIndex, images;
+var curIndex, images, clicked = 0;
 
   $("body").append($("<div />", {
     id: "tooltips"
@@ -291,11 +291,12 @@ var curIndex, images;
       });
     };
 
-    /*$(".button").click(function(){
+    $(".button").click(function(){
       console.log('click');
-      if($(this).attr("opens") == "#gallery") {
+      if($(this).attr("opens") == "#gallery" && clicked == 0) {
         hello();
+        clicked++;
       }
-    });*/
-    hello();
+    });
+    /*hello();*/
 });
