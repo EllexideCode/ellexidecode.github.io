@@ -52,7 +52,7 @@ body {
   font-family: "Big Noodle Titling", sans-serif;
   font-size: 5vh;
   letter-spacing: .25vw;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .unset-style {
@@ -195,6 +195,7 @@ body {
   box-shadow: 0 2vh 4vh rgba(0,0,0,0.4);
   transform: translate(-50%, -50%);
   animation: fall 1s cubic-bezier(.4, 0, 0, 1.2) forwards;
+  z-index: 1;
 }
 
 @keyframes fall {
@@ -380,6 +381,7 @@ body {
   height: 100vh;
   width: 100vw;
   animation: fadeIn 200ms ease-in-out forwards;
+  z-index: 1;
 }
 
 #gallExit {
