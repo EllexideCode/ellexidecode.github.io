@@ -298,13 +298,13 @@ var curIndex, images, clicked = 0;
       }
     });
 
-    /*$(".button").click(function(){
+    $(".button").click(function(){
       console.log('click');
       if($(this).attr("opens") == "#gallery" && clicked == 0) {
         hello();
         clicked++;
       }
-    });*/
+    });
   }
-  hello(); 
+  /*hello();*/
 });
