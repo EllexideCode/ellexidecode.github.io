@@ -121,48 +121,6 @@
       "preview": "https://i.imgur.com/UfjJYGg.jpg"
     }
   ],
-  "raffle": [
-    {
-      "name": "Flame",
-      "background": "https://i.imgur.com/m5pdFI3.png",
-      "preview": "https://i.imgur.com/hLUhEGq.gif"
-    },
-    {
-      "name": "Charmer",
-      "background": "https://i.imgur.com/GvezgUK.png",
-      "preview": "https://i.imgur.com/jtwMcHP.gif"
-    },
-    {
-      "name": "Akasha Clear",
-      "background": "https://i.imgur.com/QPyoiBF.jpg",
-      "preview": "https://i.imgur.com/QPyoiBF.jpg"
-    },
-    {
-      "name": "Edgar Allan Poe",
-      "background": "https://i.imgur.com/0saROsQ.png",
-      "preview": "https://i.imgur.com/0saROsQ.png"
-    },
-    {
-      "name": "Macy Lantern",
-      "background": "https://i.imgur.com/vxJYSWh.png",
-      "preview": "https://i.imgur.com/vxJYSWh.png"
-    },
-    {
-      "name": "Starchild",
-      "background": "https://i.imgur.com/C5T01OW.jpg",
-      "preview": "https://i.imgur.com/C5T01OW.jpg"
-    },
-    {
-      "name": "Bonita",
-      "background": "https://i.imgur.com/ltMZks7.png",
-      "preview": "https://i.imgur.com/ltMZks7.png"
-    },
-    {
-      "name": "Yang",
-      "background": "https://i.imgur.com/Fjwc64w.jpg",
-      "preview": "https://i.imgur.com/Fjwc64w.jpg"
-    }
-  ],
   "free": [
     {
       "name": "Genevieve",
@@ -283,6 +241,48 @@
       "background": "https://i.imgur.com/zU5fKds.jpg",
       "preview": "https://i.imgur.com/zU5fKds.jpg",
       "code": "https://pastebin.com/raw/zRSeEj5y"
+    }
+  ],
+  "raffle": [
+    {
+      "name": "Flame",
+      "background": "https://i.imgur.com/m5pdFI3.png",
+      "preview": "https://i.imgur.com/hLUhEGq.gif"
+    },
+    {
+      "name": "Charmer",
+      "background": "https://i.imgur.com/GvezgUK.png",
+      "preview": "https://i.imgur.com/jtwMcHP.gif"
+    },
+    {
+      "name": "Akasha Clear",
+      "background": "https://i.imgur.com/QPyoiBF.jpg",
+      "preview": "https://i.imgur.com/QPyoiBF.jpg"
+    },
+    {
+      "name": "Edgar Allan Poe",
+      "background": "https://i.imgur.com/0saROsQ.png",
+      "preview": "https://i.imgur.com/0saROsQ.png"
+    },
+    {
+      "name": "Macy Lantern",
+      "background": "https://i.imgur.com/vxJYSWh.png",
+      "preview": "https://i.imgur.com/vxJYSWh.png"
+    },
+    {
+      "name": "Starchild",
+      "background": "https://i.imgur.com/C5T01OW.jpg",
+      "preview": "https://i.imgur.com/C5T01OW.jpg"
+    },
+    {
+      "name": "Bonita",
+      "background": "https://i.imgur.com/ltMZks7.png",
+      "preview": "https://i.imgur.com/ltMZks7.png"
+    },
+    {
+      "name": "Yang",
+      "background": "https://i.imgur.com/Fjwc64w.jpg",
+      "preview": "https://i.imgur.com/Fjwc64w.jpg"
     }
   ]
 }
