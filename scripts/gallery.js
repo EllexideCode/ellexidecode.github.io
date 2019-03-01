@@ -5,9 +5,8 @@ var curIndex, images, clicked = 0;
     id: "tooltips"
   }));
 
-  function hello() {
     $.ajax({
-      url: "https://ellexidecode.github.io/scripts/profiles.json", 
+      url: "https://ellexidecodes.xyz/scripts/profiles.json", 
       dataType: 'json',
       success: function(data) {
         $.each(data, function(field) {
@@ -298,13 +297,11 @@ var curIndex, images, clicked = 0;
       }
     });
 
-    $(".button").click(function(){
-      console.log('click');
-      if($(this).attr("opens") == "#gallery" && clicked == 0) {
-        hello();
-        clicked++;
-      }
-    });
-  }
-  /*hello();*/
+      /*$(".button").click(function(){
+        console.log('click');
+        if($(this).attr("opens") == "#gallery" && clicked == 0) {
+          hello();
+          clicked++;
+        }
+      });*/
 });
