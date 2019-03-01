@@ -509,7 +509,7 @@ h3 {
   color: var(--blurple);
 }
 
-a {
+a:not(.button) {
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
