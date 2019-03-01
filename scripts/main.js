@@ -1,24 +1,22 @@
 $(document).ready(()=>{
-  $(".scroller").mCustomScrollbar({
+ /* $(".scroller").mCustomScrollbar({
     autoHideScrollbar: true,
     scrollButtons: {
       enable: false
     },
-    theme: "inset-2"
+    theme: "inset-dark"
+  });*/
+
+  $(".unset-style, .button:not(a)").click(function(){
+    var opens = $(this).attr("opens");
+    if($(opens).is(":visible")) {
+      return;
+    }
+    $(".scrollerWrap").fadeOut(200);
+    setTimeout(function(){
+      $(opens).fadeIn(200);
+      $(opens).addClass("open")
+      curOpen = opens;
+    }, 200);
   });
-
-  function hello() {
-    $.getJSON("./scripts/profiles.json", function(result) {
-      $.each(result, function(field) {
-        var size = field.length;
-        for(i = 0; i < size; ++i) {
-          $("body").append(`
-          This is a ${field}. The name of the profile owner is ${field[i].name}. You can find their profile here: ${field[i].preview}. Please work.
-          `)
-        }
-      })
-    })
-  };
-
-  hello();
-});
+  });
