@@ -486,9 +486,19 @@ h1.header {
 
 h2 {
   margin-left: 3vw;
-  font-family: "Big Noodle Titling", cursive;
+  font-family: "Big Noodle Titling", sans-serif;
   font-size: 4vh;
   color: var(--not-black);
+}
+
+h3 {
+  margin-left: 4vw;
+  font-family: "Big Noodle Titling", sans-serif;
+  font-size: 3.5vh;
+  background: linear-gradient(var(--greyple), var(--blurple));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .greyple {
@@ -497,6 +507,12 @@ h2 {
 
 .blurple {
   color: var(--blurple);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
 }
 
 span.grace {
