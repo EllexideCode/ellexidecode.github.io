@@ -130,7 +130,7 @@ var curIndex, images;
                         src: newPic
                       })
                     });
-                    $("#gallOverlay .source").attr("code", newCode);
+                    $("#gallOverlay .source").attr("opens", newCode);
                   }
         
                   $("<div />", {
