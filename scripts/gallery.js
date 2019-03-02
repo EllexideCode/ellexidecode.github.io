@@ -35,7 +35,11 @@ var curIndex, images;
                   function changePicture(ind) {
                     var newPic = $(`.item.${field}`).eq(ind).attr("img");
                 
-                    $("#gallOverlay img").attr("src", `${newPic}`);
+                    $("#gallOverlay img").replaceWith(function(){
+                      return $("<img", {
+                        src: newPic
+                      })
+                    });
                   }
         
                   $("<div />", {
@@ -121,8 +125,12 @@ var curIndex, images;
                     var newPic = $(`.item.${field}`).eq(ind).attr("img"),
                     newCode = $(`.item.${field}`).eq(ind).attr("code");
                 
-                    $("#gallOverlay img").attr("src", `${newPic}`);
-                    $("#gallOverlay .source").attr("opens", newCode);
+                    $("#gallOverlay img").replaceWith(function(){
+                      return $("<img", {
+                        src: newPic,
+                        code: newCode
+                      })
+                    });
                   }
         
                   $("<div />", {
