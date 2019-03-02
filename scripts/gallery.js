@@ -127,10 +127,10 @@ var curIndex, images;
                 
                     $("#gallOverlay img").replaceWith(function(){
                       return $("<img>", {
-                        src: newPic,
-                        code: newCode
+                        src: newPic
                       })
                     });
+                    $("#gallOverlay .source").attr("code", newCode);
                   }
         
                   $("<div />", {
