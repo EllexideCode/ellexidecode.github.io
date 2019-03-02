@@ -36,7 +36,7 @@ var curIndex, images;
                     var newPic = $(`.item.${field}`).eq(ind).attr("img");
                 
                     $("#gallOverlay img").replaceWith(function(){
-                      return $("<img", {
+                      return $("<img>", {
                         src: newPic
                       })
                     });
@@ -126,7 +126,7 @@ var curIndex, images;
                     newCode = $(`.item.${field}`).eq(ind).attr("code");
                 
                     $("#gallOverlay img").replaceWith(function(){
-                      return $("<img", {
+                      return $("<img>", {
                         src: newPic,
                         code: newCode
                       })
