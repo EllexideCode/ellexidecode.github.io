@@ -1,6 +1,11 @@
 {
   "commission": [
     {
+      "name": "Amelia Folks",
+      "background": "https://i.imgur.com/HIm2Tap.png",
+      "preview": "https://i.imgur.com/W05kyO8.gif"
+    },
+    {
       "name": "Satomi Hana",
       "background": "https://i.imgur.com/u5fmvXy.png",
       "preview": "https://i.imgur.com/pOYo4mr.gif"
