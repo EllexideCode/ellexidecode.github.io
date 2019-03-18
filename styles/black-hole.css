@@ -1066,6 +1066,24 @@
   animation: fadeFromTop 200ms;
 }
 
+  /* J. Autocomplete & Everyone Popout */
+#app-mount .autocomplete-1vrmpx,
+#app-mount .everyonePopout-nEbJY3 {
+  background: linear-gradient(transparent, var(--blurple-sheer) 80%),var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border: 1px solid var(--sheer);
+}
+
+#app-mount .footer-2aTx0s {
+  background: transparent;
+}
+
+#app-mount .selectorSelected-1_M1WV {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+
 /* IX. Keyframes */
 
 @keyframes fadeIn {
