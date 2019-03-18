@@ -226,6 +226,24 @@
   color: currentColor;
 }
 
+.unread-1xRYoj {
+  background-color: var(--blurple-sheer);  
+  transition: background-color .2s ease-in-out;
+}
+
+.unread-1xRYoj:hover {
+  background-color: var(--blurple);
+}
+
+.mention-1f5kbO {
+  background-color: var(--dnd-sheer);
+  transition: background-color .2s ease-in-out;
+}
+
+.mention-1f5kbO:hover {
+  background-color: var(--dnd);
+}
+
   /* C. User Settings and Voice Connection */
 .container-1UB9sr {
   border-color: var(--tres)
