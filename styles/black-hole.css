@@ -108,18 +108,21 @@
 *  IX. Popouts
 *     A. User Popout
 *     B. Message Popout
-*     C. User Modal
-*     D. Search Popout & Results
-*     E. Upload Modal, Attach Popout, Add Game popout 
-*     F. Tooltips
-*     G. Autocomplete & Everyone Popout
-*     H. Join Guild Modal
-*     I. Gift Nitro and Gif Picker
-*     J. Emoji Picker
-*     K. Game Preview
+*     C. Search Popout & Results
+*     D. Attach Popout, Add Game popout
+*     E. Tooltips
+*     F. Autocomplete & Everyone Popout
+*     G. Gift Nitro and Gif Picker
+*     H. Emoji Picker
+*     I. Game Preview
+*     J. Add Roles Popout
 *     
-*  X. Keyframes
-*  XI. Custom CSS
+*  X. Modals
+*     A. User Modal
+*     B. Upload Modal 
+*     C. Join Guild Modal
+*  XI. Keyframes
+*  XII. Custom CSS
 */
 
 
@@ -837,7 +840,7 @@
   background: var(--sheer);
 }
  
-/* IX. Popouts and Modals */
+/* IX. Popouts */
 
   /* A. User Popout */
 #app-mount .headerNormal-T_seeN,
@@ -965,35 +968,7 @@
   border-color: var(--greyple) !important;
 }
 
-  /* C. User Modal */
-#app-mount .inner-1JeGVc {
-  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
-  border-radius: 10px;
-}
-
-#app-mount .topSectionNormal-2-vo2m,
-#app-mount .body-3ND3kc,
-#app-mount .topSectionPlaying-1J5E4n,
-#app-mount .topSectionXbox-3fWLjS,
-#app-mount .topSectionSpotify-1lI0-P,
-#app-mount .topSectionStreaming-1Tpf5X{
-  background: transparent;
-}
-
-#app-mount .topSectionPlaying-1J5E4n {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
-}
-
-#app-mount .topSectionXbox-3fWLjS,
-#app-mount .topSectionSpotify-1lI0-P {
-  background: linear-gradient(var(--online-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
-}
-
-#app-mount .topSectionStreaming-1Tpf5X {
-  background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
-}
-
-  /* D. Search Popout & Results */
+  /* C. Search Popout & Results */
 #app-mount .container-3ayLPN {
   background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
 }
@@ -1064,52 +1039,7 @@
   border-color: var(--greyple);
 }
 
-  /* E. Upload Modal, Attach Popout, Add Game popout */
-.uploadModal-2ifh8j,
-#app-mount .addGamePopout-2RY8Ju {
-  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
-  background-attachment: fixed;
-  border-radius: 10px;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo,
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-  border-color: var(--sheer)
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j:hover {
-  width: 93%;
-  height: 160%;
-  margin-top: -95px;
-}
-
-.uploadModal-2ifh8j .footer-3mqk7D {
-  background: transparent;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91,
-#app-mount .checked-3_4uQ9,
-.theme-brand .inner-zqa7da,
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-  background-color: var(--sheer);
-  transition: all .2s ease-in-out;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-  background-color: var(--veil);
-}
-
-#app-mount .modal-3HD5ck {
-  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
-background-attachment: fixed;
-}
-
-#app-mount .footer-2yfCgX {
-  background: transparent;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-}
-
+  /* D. Attach Popout, Add Game popout */
 #app-mount .attachPopout-1n-ZKM {
   background: var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
@@ -1134,7 +1064,7 @@ background-attachment: fixed;
   background: var(--uno);
 }
 
-  /* F. Tooltips */
+  /* E. Tooltips */
 .tooltip-1OS-Ti {
   border-radius: 5px !important;
 }
@@ -1177,7 +1107,7 @@ background-attachment: fixed;
   animation: fadeFromTop 200ms;
 }
 
-  /* G. Autocomplete & Everyone Popout */
+  /* F. Autocomplete & Everyone Popout */
 #app-mount .autocomplete-1vrmpx,
 #app-mount .everyonePopout-nEbJY3 {
   background: linear-gradient(transparent, var(--blurple-sheer) 80%),var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
@@ -1194,69 +1124,7 @@ background-attachment: fixed;
   background-attachment: fixed;
 }
 
-  /* H. Join Guild Modal */
-#app-mount .action-1lSjCi {
-  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
-  background-attachment: fixed;
-}
-
-#app-mount .create-3jownz .actionIcon-2IISM_ {
-  position: relative;
-  background-image: none;
-  background-color: var(--blurple);
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.svg) center/112px 78px no-repeat;
-}
-
-.create-3jownz .actionIcon-2IISM_::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: white;
-  opacity: .4;
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn-two.svg) center/112px 78px no-repeat;
-}
-
-#app-mount .join-33Tr-7 .actionIcon-2IISM_ {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/join-btn.png);
-}
-
-#app-mount  .or-3THJsp {
-  -webkit-mask: url('https://ellexidecodes.github.io/Discord-Themes/assets/or.svg');
-  -webkit-mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: 52px 52px;
-  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
-  background-attachment: fixed;
-  color: var(--blurple);
-}
-
-#app-mount .theme-light .wrapper-2ZbzR9 {
-  background: transparent;
-}
-
-.avatar-21196O {
-  border-color: var(--greyple-sheer)
-}
-
-.avatarUploaderInner-3UNxY3 {
-  background-color: var(--blurple-sheer);
-}
-
-.regionSelectModal-12e-57 {
-  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
-  background-attachment: fixed;
-}
-
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  background: var(--sheer);
-  border-color: var(--sheer);
-  transition: all .2s ease-in-out;
-}
-
-  /* I. Gift Nitro and Gif Picker */
+  /* G. Gift Nitro and Gif Picker */
 #app-mount .option-1l2vXE {
   background: var(--veil);
 }
@@ -1279,7 +1147,7 @@ background-attachment: fixed;
   opacity: .7;
 }
 
-  /* J. Emoji Picker */
+  /* H. Emoji Picker */
 #app-mount .emojiPicker-3m1S-j,
 #app-mount .diversitySelector-tmmMv0 .popout-2nUePc {
   background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
@@ -1368,7 +1236,7 @@ background-attachment: fixed;
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/sadDiscord.svg);
 }
 
-  /* K. Game Preview */
+  /* I. Game Preview */
 #app-mount .gamePreview-9weYR2 {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
@@ -1383,7 +1251,161 @@ background-attachment: fixed;
   background: var(--sheer);
 }
 
-/* X. Keyframes */
+  /* J. Add Roles Popout */
+#app-mount .autocompleteArrow-Zxoy9H, 
+#app-mount .autocompleteHeaderBackground-30T70q {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount  .container-VSDcQc .sectionTag-pXyto9 {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .row-rrHHJU.selected-1pIgLL {
+  background: var(--blurple-sheer) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+/* X. Modals */
+  /* A. User Modal */
+#app-mount .inner-1JeGVc {
+  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+  border-radius: 10px;
+}
+
+#app-mount .topSectionNormal-2-vo2m,
+#app-mount .body-3ND3kc,
+#app-mount .topSectionPlaying-1J5E4n,
+#app-mount .topSectionXbox-3fWLjS,
+#app-mount .topSectionSpotify-1lI0-P,
+#app-mount .topSectionStreaming-1Tpf5X{
+  background: transparent;
+}
+
+#app-mount .topSectionPlaying-1J5E4n {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .topSectionXbox-3fWLjS,
+#app-mount .topSectionSpotify-1lI0-P {
+  background: linear-gradient(var(--online-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .topSectionStreaming-1Tpf5X {
+  background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+  /* B. Upload Modal */
+.uploadModal-2ifh8j,
+#app-mount .addGamePopout-2RY8Ju {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  border-color: var(--sheer)
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j:hover {
+  width: 93%;
+  height: 160%;
+  margin-top: -95px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+  background: transparent;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+#app-mount .checked-3_4uQ9,
+.theme-brand .inner-zqa7da,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  background-color: var(--sheer);
+  transition: all .2s ease-in-out;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: var(--veil);
+}
+
+#app-mount .modal-3HD5ck {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+background-attachment: fixed;
+}
+
+#app-mount .footer-2yfCgX {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+  /* C. Join Guild Modal */
+#app-mount .action-1lSjCi {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .create-3jownz .actionIcon-2IISM_ {
+  position: relative;
+  background-image: none;
+  background-color: var(--blurple);
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.svg) center/112px 78px no-repeat;
+}
+
+.create-3jownz .actionIcon-2IISM_::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: .4;
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn-two.svg) center/112px 78px no-repeat;
+}
+
+#app-mount .join-33Tr-7 .actionIcon-2IISM_ {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/join-btn.png);
+}
+
+#app-mount  .or-3THJsp {
+  -webkit-mask: url('https://ellexidecodes.github.io/Discord-Themes/assets/or.svg');
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 52px 52px;
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  color: var(--blurple);
+}
+
+#app-mount .theme-light .wrapper-2ZbzR9 {
+  background: transparent;
+}
+
+.avatar-21196O {
+  border-color: var(--greyple-sheer)
+}
+
+.avatarUploaderInner-3UNxY3 {
+  background-color: var(--blurple-sheer);
+}
+
+.regionSelectModal-12e-57 {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+  background: var(--sheer);
+  border-color: var(--sheer);
+  transition: all .2s ease-in-out;
+}
+
+/* XI. Keyframes */
 
 @keyframes fadeIn {
   to {
@@ -1542,7 +1564,7 @@ background-attachment: fixed;
   }
 }
 
-/* XI. Custom CSS */
+/* XII. Custom CSS */
 .contentRegion-3nDuYy #bd-customcss-attach-controls, 
 #bd-customcss-detach-container #bd-customcss-attach-controls {
   background: var(--quatro);
