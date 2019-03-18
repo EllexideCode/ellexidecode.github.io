@@ -488,14 +488,22 @@
     /* 1. Embeds, Code Blocks, and Invites */
 #app-mount  .markup-2BOw-j pre,
 #app-mount .wrapper-35wsBm,
-#app-mount .embedInner-1-fpTo {
+#app-mount .embedInner-1-fpTo,
+#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
   background: var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
   border-color: var(--tres)
 }
 
+
+#app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+  background: linear-gradient(var(--dnd-sheer), transparent 80%),var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+  border-color: var(--tres)
+}
+
 #app-mount .markup-2BOw-j code, 
-#app-mount .markup-2BOw-j code.inline {
+#app-mount .markup-2BOw-j code.inline,
+#app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf .messageGroupBlockedBtn-1PBBh- {
   background: transparent;
 }
 
