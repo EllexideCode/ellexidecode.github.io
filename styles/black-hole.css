@@ -828,15 +828,21 @@
 
   /* D. Dropdown Menus */
 #app-mount .select-2TCrqx .Select-menu-outer,
-#app-mount .popout-2sKjHu {
+#app-mount .popout-2sKjHu,
+#app-mount .popoutList-T9CKZQ {
   background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
   border: 1px solid black;
 }
 
+#app-mount .selectableItem-1MP3MQ[style*="background: rgb(114, 137, 218)"] {
+  background-color: var(--blurple-sheer) !important;
+}
+
 #app-mount .select-2TCrqx .Select-option.is-focused, 
 #app-mount .select-2TCrqx .Select-option:hover,
-#app-mount .optionActive-KkAdqq {
+#app-mount .optionActive-KkAdqq,
+#app-mount .selectableItem-1MP3MQ:hover {
   background: var(--sheer);
 }
  
