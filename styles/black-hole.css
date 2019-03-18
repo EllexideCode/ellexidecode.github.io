@@ -327,7 +327,8 @@
 }
 
   /* B. Guild Styles */
-#app-mount .circleIconButton-jET_ig {
+#app-mount .circleIconButton-jET_ig,
+#app-mount .wrapper-2lTRaf {
   background: transparent;
 }
 
@@ -527,7 +528,8 @@
 }
 
 #app-mount .header-1RC2Wb,
-.theme-dark .bda-slist li {
+#app-mount .bda-slist li,
+#app-mount .notDetected-33MY4s {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
 }
@@ -594,6 +596,14 @@
 
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   border-color: black;
+}
+
+#app-mount .accountBtnInner-sj5jLs {
+  background-color: var(--veil);
+}
+
+#app-mount .accountBtnInner-sj5jLs:hover {
+  background-color: var(--sheer);
 }
 
 /* VI. Top Layers */
@@ -749,7 +759,8 @@
 }
 
   /* C. Context Menu */
-#app-mount .contextMenu-HLZMGh {
+#app-mount .contextMenu-HLZMGh,
+#app-mount .container-3cGP6G {
   background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
   border: 1px solid black;
@@ -760,7 +771,8 @@
 }
 
 #app-mount .itemSubMenu-1vN_Yn:hover,
-#app-mount .item-1Yvehc:hover {
+#app-mount .item-1Yvehc:hover,
+#app-mount .item-2J1YMK:hover {
   background-color: var(--sheer);
 }
 
@@ -989,7 +1001,7 @@
   border-color: var(--greyple);
 }
 
-  /* H. Upload Modal */
+  /* H. Upload Modal & Attach Popout */
 .uploadModal-2ifh8j {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
@@ -1021,6 +1033,31 @@
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
   background-color: var(--veil);
+}
+
+#app-mount .modal-3HD5ck {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+background-attachment: fixed;
+}
+
+#app-mount .footer-2yfCgX {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background: var(--blurple-sheer)
+}
+
+#app-mount .attachPopout-1n-ZKM {
+  background: var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .attachPopoutRow-KrE-f6:hover {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
 }
 
   /* I. Tooltips */
