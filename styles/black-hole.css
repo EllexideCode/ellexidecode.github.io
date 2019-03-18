@@ -1,0 +1,1255 @@
+@import url(https://fontlibrary.org/face/horta); /* 'HortaRegular' */
+@import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
+@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+
+/*
+                                                                                                     
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+ /$$$$$$$  /$$                     /$$             /$$   /$$           /$$          
+| $$__  $$| $$                    | $$            | $$  | $$          | $$           
+| $$  \ $$| $$  /$$$$$$   /$$$$$$$| $$   /$$      | $$  | $$  /$$$$$$ | $$  /$$$$$$ 
+| $$$$$$$ | $$ |____  $$ /$$_____/| $$  /$$/      | $$$$$$$$ /$$__  $$| $$ /$$__  $$
+| $$__  $$| $$  /$$$$$$$| $$      | $$$$$$/       | $$__  $$| $$  \ $$| $$| $$$$$$$$
+| $$  \ $$| $$ /$$__  $$| $$      | $$_  $$       | $$  | $$| $$  | $$| $$| $$_____/
+| $$$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$ \  $$      | $$  | $$|  $$$$$$/| $$|  $$$$$$$
+|_______/ |__/ \_______/ \_______/|__/  \__/      |__/  |__/ \______/ |__/ \_______/
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧       ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧                      
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     (c) Lil Monster#3557      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:*
+
+
+*/
+
+
+/* *•̩̩͙⊱••••••••••••✩ VARIABLES ✩••••̩̩͙⊰•••••••••** */
+:root {
+	--theme-name: "Black Hole";
+  --theme-version: "0.1";
+  --blurple: #7289da;
+  --greyple: #99AAB5;
+  --blurple-sheer: #7289da44;
+  --greyple-sheer: #99AAB544;
+  --black-hole: url(https://i.imgur.com/9Qx73mY.gif);
+  --roundness: 50px;
+  --uno: #19191b;
+  /* primary background color */
+  --dos: #1E1E21;
+  /* secondary background color */
+  --tres: #232327;
+  /* tertiary background color */
+  --quatro: #101011;
+  /* quaternary background color */
+  --sheer: rgba(0,0,0,0.6);
+  --veil: rgba(100, 100, 100, 0.2);
+
+
+  --online: #43b581;
+  --online-sheer: #43b58144;
+  /* color for online status */
+  --idle: #faa61a;
+  --idle-sheer: #faa61a44;
+  /* color for idle status */
+  --dnd: #f04747;
+  --dnd-sheer: #f0474744;
+  /* color for dnd status */
+  --offline: #636b75;
+  --offline-sheer: #636b7544;
+  /* color for offline status */
+  --invisi: #747f8d;
+  --invisi-sheer: #747f8d44;
+  /* color for invisible status - Note this will only show for your own invisibility */
+  --streaming: #643da7;
+  --streaming-sheer: #643da744;
+  /* color for streaming status */
+
+}
+
+/* ==== TABLE OF CONTENTS ====
+*  ========== STATIC ==========
+*  I. App Window
+*  II. Title Bar
+*  III. Channel Area
+*     A. Channels Header
+*     B. Channel Groups and Individual Channels
+*     C. User Settings and Voice Connection
+*     D. Private Channels
+*     
+*  IV. Guilds Area
+*     A. Guilds Header
+*     B. Guild Styles
+*
+*  V. Pages
+*     A. Main Areas
+*       1. Embeds, Code Blocks, and Invites
+*     B. Members List
+*     C. Top Bar & Typing Status
+*     D. Cards and Tiles
+*     E. Buttons, Switches, and Bars
+*
+*  VI. Top Layers
+*  VII. ScrollBars
+*
+*
+*
+*
+*  ========== MODALS AND POPOUTS ==========
+*  VIII. Menus
+*     A. Server Menu
+*     B. User Status
+*     C. Context Menu
+*     D. User Popout
+*     E. Message Popout
+*     F. User Modal
+*     G. Search Popout & Results
+*     H. Upload Modal
+*     
+*  IX. Keyframes
+*/
+
+
+/* I. App Window */
+#app-mount,
+.container-16j22k {
+  background: var(--black-hole) center;
+}
+
+#app-mount .layer-3QrUeG, 
+#app-mount .layers-3iHuyZ,
+.container-2lgZY8 {
+  background-color: transparent;
+}
+
+
+
+/* II. Title Bar */
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+.titleBar-AC4pGV::after {
+  content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #aaa;
+  display: block;
+  height: 16px;
+  width: fit-content;
+  pointer-events: none;
+  font-size: 14px;
+}
+
+.winButtonMinMax-PBQ2gm:hover {
+  background-color: var(--blurple);
+}
+
+.titleBar-AC4pGV {
+  background-color: transparent;
+}
+
+
+
+/* III. Channel Area */
+  /* A. Channels Header */
+.container-PNkimc {
+  background-color: transparent;
+}
+
+.channels-Ie2l6A {
+  background-color: transparent;
+}
+
+  /* B. Channel Groups and Individual Channels */
+.containerDefault-3GGEv_, 
+.containerDragAfter-3TEhpe, 
+.containerDragBefore-3Dzc5x, 
+.containerUserOver-1Tcb7l {
+  padding-top: 20px;
+}
+
+.contentSelectedText-3wUhMi, 
+.contentSelectedVoice-1WDIBM,
+.contentConnectedVoice-qL-YrL,
+.wrapper-2NJDcI {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  color: var(--blurple)
+}
+
+.contentConnectedVoice-qL-YrL:active, 
+.contentHoveredText-2D9B-x, 
+.contentHoveredVoice-3p_NEO:active, 
+.contentSelectedVoice-1WDIBM:active {
+  background-color: transparent;
+}
+
+.contentSelectedText-3wUhMi .icon-sxakjD, 
+.contentSelectedVoice-1WDIBM .icon-sxakjD {
+  opacity: 1;
+  filter: brightness(100%);
+}
+
+.colorHoveredText-OZnAgu, 
+.colorHoveredVoice-1kucsK {
+  color: var(--blurple);
+  opacity: 1;
+}
+
+.nameConnectedText-3CzNQn, 
+.nameConnectedVoice-MHUX5F, 
+.nameSelectedText-sp_EUw, 
+.nameSelectedVoice-1qSph5,
+.colorConnectedText-1c_uzY, 
+.colorConnectedVoice-3kyvUN, 
+.colorSelectedText-1y4Wvs, 
+.colorSelectedVoice-Xcb_9R {
+  color: currentColor;
+}
+
+  /* C. User Settings and Voice Connection */
+.container-1UB9sr {
+  border-color: var(--tres)
+}
+
+.container-2Thooq,
+.container-1UB9sr,
+.payment-xT17Mq,
+.expandedInfo-3kfShd {
+  background-color: transparent !important;
+}
+
+.hoverablePayment-Yc6mK7:hover {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.notches-1sAcEM {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='8'%20height='20'%20fill='%2336393f'><path%20fill-rule='evenodd'%20d='M0%200h8v20H0V0zm4%202a2%202%200%200%200-2%202v12a2%202%200%201%200%204%200V4a2%202%200%200%200-2-2z'/></svg>");
+  -webkit-mask-repeat: repeat-x;
+}
+
+.progress-1IcQ3A {
+  background: var(--dos) !important;
+}
+
+.authedApp-mj2Hmd,
+.paginator-166-09 {
+  background: var(--sheer) !important;
+}
+
+.defaultIndicator-G3c16x,
+.paymentPane-3bwJ6A {
+  background-color: var(--sheer) !important;
+}
+
+.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--uno) !important;
+}
+
+  /* D. Private Channels */
+.searchBar-6Kv8R2 {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.searchBar-2_Yu-C {
+  background-color: transparent;
+  border-color: var(--tres);
+}
+
+.privateChannels-1nO12o .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+
+
+/* IV. Guilds Area */
+  /* A. Guilds Header */
+#app-mount .wrapper-1Rf91z {
+  margin-top: 45px;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+  display: none;
+}
+
+.container-2td-dC .wrapper-2lTRaf {
+  background-color: transparent !important;
+}
+
+.scrollerWrap-1IAIlv {
+  height: 90%;
+}
+
+.scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 0px 0 20px 10px;
+  width: 58px !important;
+}
+
+.scrollerWrap-1IAIlv .scroller-2TZvBN>.container-1ETFDs {
+  position: absolute;
+  top: -45px;
+  left: 0px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.homeButton-2Cw51C {
+  background-color: white !important;
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+  -webkit-mask-size: 45px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  transform: scale(0.5);
+  transition: background-color .2s ease-in-out;
+}
+
+.homeButton-2Cw51C:hover {
+  background-color: var(--blurple) !important;
+}
+
+.homeButton-2Cw51C defs, .homeButton-2Cw51C g {
+  display: none;
+}
+
+  /* B. Guild Styles */
+#app-mount .circleIconButton-jET_ig {
+  background: transparent;
+}
+
+#app-mount .circleIconButton-jET_ig:hover {
+  opacity: 1
+}
+
+.container-2td-dC.audio-2KA0-x::after,
+.container-2td-dC.video-2jNDI4::after,
+.selected-nT-gM3:before, .unread-2OHH1w:before {
+  background-color: var(--blurple) !important;
+  transition: all .2s ease-in-out;
+}
+
+.unread-2OHH1w:before {
+  box-shadow: 2px 0px 10px var(--blurple);
+}
+
+.unread-2OHH1w.selected-nT-gM3::before {
+  box-shadow: none;
+}
+
+/* V. Pages */
+  /* A. Main Areas */
+.chat-3bRxxu,
+#app-mount .activityFeed-28jde9,
+#app-mount .activityFeed-1C0EmJ,
+#app-mount .gameLibrary-TTDw4Y,
+#app-mount .container-3gCOGc,
+#app-mount .applicationStore-1pNvnv {
+  background-color: transparent !important;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+#app-mount .title-3qD0b-, 
+#app-mount .titleCall-_b9o8P,
+#app-mount .headerBar-UHpsPw,
+#app-mount .header-39GIC8,
+#app-mount .chat-3bRxxu .channelTextArea-rNsIhG,
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR {
+  background-color: var(--online-sheer)
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR:hover {
+  background-color: var(--online)
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl {
+  background-color: var(--dnd-sheer);
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover {
+  background-color: var(--dnd);
+}
+
+.gameLibrary-TTDw4Y>.libraryHeader-3g95kE+div+.scrollerWrap-2lJEkd>.scroller-2FKFPG {
+  margin-top: 47px;
+}
+
+.stickyHeader-1pqx0j+.stickyHeader-1pqx0j {
+  margin-top: -47px;
+}
+
+#app-mount .content-yTz4x3,
+#app-mount .chat-3bRxxu form .inner-zqa7da,
+#app-mount .chat-3bRxxu form,
+#app-mount .itemBackground-2vEldQ {
+  background-color: transparent;
+}
+
+#app-mount .content-yTz4x3 {
+  border: 1px solid var(--quatro);
+}
+
+#app-mount .messagesWrapper-3lZDfY {
+  background-color: transparent;
+}
+
+
+#app-mount .content-yTz4x3,
+#app-mount .activityFeed-28jde9m,
+.gameLibrary-TTDw4Y .scrollerWrap-2lJEkd,
+.friendsTable-133bsv,
+.applicationStore-1pNvnv .scrollerWrap-2lJEkd,
+.activityFeed-1C0EmJ .scrollerWrap-2lJEkd {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.chat-3bRxxu .channelTextArea-rNsIhG {
+  margin: 0px 0 0 0px;
+  padding: 0;
+  border: none;
+}
+
+.chat-3bRxxu .innerNoAutocomplete-1WpcVO {
+  border-radius: 0px;
+}
+
+.chat-3bRxxu .textArea-2Spzkt {
+  background-color: transparent !important;
+  line-height: 1.25rem !important;
+  margin-top: 8px;
+}
+
+.buttons-205you {
+  align-self: center;
+}
+
+.chat-3bRxxu form,
+.chat-3bRxxu .channelTextArea-rNsIhG,
+.innerNoAutocomplete-1WpcVO{
+  margin: 0;
+  min-height: 55px;
+}
+
+    /* 1. Embeds, Code Blocks, and Invites */
+#app-mount  .markup-2BOw-j pre,
+#app-mount .wrapper-35wsBm,
+#app-mount .embedInner-1-fpTo {
+  background: var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  border-color: var(--tres)
+}
+
+#app-mount .markup-2BOw-j code, 
+#app-mount .markup-2BOw-j code.inline {
+  background: transparent;
+}
+
+  /* B. Members List */
+#app-mount .members-1998pB {
+  background-color: transparent;
+  margin-bottom: 55px;
+}
+
+#app-mount .members-1998pB::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 55px;
+  width: 100%;
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+#app-mount .member-3W1lQa .content-OzHfo4  {
+  border-right: 2px solid transparent;
+}
+
+#app-mount .member-3W1lQa:hover .content-OzHfo4 {
+  background: transparent;
+  border-right-color: var(--blurple);
+}
+
+#app-mount .member-3W1lQa.popout-open .content-OzHfo4, 
+#app-mount .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+#app-mount .status-2s6iDp,
+#app-mount .status-2kJpnA {
+  border: none;
+}
+
+  /* C. Top Bar & Typing Status */
+#app-mount .search-2oPWTC .searchBar-3dMhjb {
+  background: transparent;
+}
+
+#app-mount .typing-2GQL18 {
+  margin-bottom: 54px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, .4);
+  padding: 0 10px;
+  max-width: 60%;
+  width: fit-content;
+  border-radius: 10px 10px 0 0;
+}
+
+  /* D. Cards and Tiles */
+.article-3kb3qm,
+#app-mount .body-SKIE6r,
+#app-mount .news-2GDtLJ {
+  background-color: transparent;
+}
+
+#app-mount .header-1RC2Wb,
+.theme-dark .bda-slist li {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+#app-mount .card-rJBFl3,
+#app-mount .card-7JP0BX {
+  background: var(--sheer) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+#app-mount .itemBackground-2vEldQ:before {
+  background: radial-gradient(ellipse at top,transparent,var(--sheer)),linear-gradient(90deg,var(--sheer) 0,transparent 40%,transparent 60%,var(--sheer)),linear-gradient(0deg,var(--sheer) 10%,transparent 70%);
+}
+
+#app-mount .iconCircle-1dlYo0 {
+  background: var(--sheer);
+}
+
+#app-mount .tile-QA_yMc,
+#app-mount .tileMedia-1q3guD,
+#app-mount .popout-2xBvMR,
+#app-mount .outer-2IVh5n,
+#app-mount .popout-3G62UL,
+#app-mount  .recentlyPlayedContainer-2F3MqS {
+  background: var(--uno)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .tile-QA_yMc:hover,
+#app-mount .tileMedia-1q3guD:hover,
+#app-mount .multipleIconWrapper-2TXVB4, 
+#app-mount .section-3TvauS {
+  background: var(--sheer)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .mediaFade-1SdEfL {
+  background: linear-gradient(180deg,transparent,var(--sheer));
+}
+
+#app-mount .gradientOverlayLeft-3w159C {
+  background: linear-gradient(90deg,var(--sheer),transparent);
+}
+
+#app-mount .gradientOverlayRight-3vMuS8 {
+  background: linear-gradient(90deg,transparent,var(--sheer));
+}
+
+  /* E. Buttons, Switches, and Bars */
+.headerButtonColor-G7_f-V {
+  background-color: var(--dos);
+}
+
+.userSettingsVoice-iwdUCU .media-engine-video {
+  background: transparent;
+}
+
+#app-mount .bar-2Qqk5Z,
+.themeDefault-24hCdX,
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+  background-color: var(--sheer);
+}
+
+#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+  border-color: black;
+}
+
+/* VI. Top Layers */
+#app-mount  .standardSidebarView-3F1I7i,
+#app-mount .sidebarRegion-VFTUkN {
+  background: transparent;
+}
+
+#app-mount .contentRegion-3nDuYy {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.sidebarRegionScroller-3MXcoP,
+#app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd {
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+/* VII. Scrollbars */
+
+.scroller-2FKFPG::-webkit-scrollbar,
+.rolesList-22qj2L::-webkit-scrollbar,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-track,
+.scroller-2FKFPG::-webkit-scrollbar-track-piece,
+.rolesList-22qj2L::-webkit-scrollbar-track-piece,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-thumb,
+.rolesList-22qj2L::-webkit-scrollbar-thumb,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+  border: none;
+  background-color: var(--blurple) !important;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================== MODALS AND POPOUTS ================== */
+
+/* VIII. Menus */
+  /* A. Server Menu */
+#app-mount .menu-Sp6bN1 {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+}
+
+#app-mount .item-1GzJrl:hover {
+  background: var(--uno)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  color: var(--blurple);
+}
+
+
+.item-1GzJrl {
+  padding: 10px;
+  width: 40px;
+  justify-content: center;
+}
+
+.icon-2doZ3q {
+  margin: 0;
+}
+
+.label-1Y-LW5 {
+  display: none;
+}
+
+.menu-Sp6bN1 {
+  display: flex;
+  width: fit-content;
+}
+
+.popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
+  width: fit-content !important;
+  top: 58px !important;
+  left: 190px !important;
+  transform: translateX(-50%) !important;
+  border: 1px solid var(--blurple);
+  border-radius: 0;
+  animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
+}
+
+  /* B. User Status */
+.popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z[role="dialog"][style*="z-index: 1001"] {
+  height: fit-content !important;
+  width: fit-content !important;
+  animation: popoutanim-status 300ms cubic-bezier(.4, 0, 0, 1);
+}
+
+.popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1 .separator-2zcjq8,
+.alt-3btY0e .item-1GzJrl * {
+  display: none;
+}
+
+.popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1.alt-3btY0e {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
+  pointer-events: all;
+  height: 41px;
+  width: 41px;
+  margin: .5vw;
+  transition: all .2s ease-in-out;
+}
+
+.alt-3btY0e .item-1GzJrl:nth-child(1) {
+  background: var(--online) !important;
+  -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0yIDE1bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+PC9zdmc+) center/90% no-repeat;
+}
+
+.alt-3btY0e .item-1GzJrl:nth-child(3) {
+  background: var(--idle) !important;
+  -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE1IDFIOXYyaDZWMXptLTQgMTNoMlY4aC0ydjZ6bTguMDMtNi42MWwxLjQyLTEuNDJjLS40My0uNTEtLjktLjk5LTEuNDEtMS40MWwtMS40MiAxLjQyQzE2LjA3IDQuNzQgMTQuMTIgNCAxMiA0Yy00Ljk3IDAtOSA0LjAzLTkgOXM0LjAyIDkgOSA5IDktNC4wMyA5LTljMC0yLjEyLS43NC00LjA3LTEuOTctNS42MXpNMTIgMjBjLTMuODcgMC03LTMuMTMtNy03czMuMTMtNyA3LTcgNyAzLjEzIDcgNy0zLjEzIDctNyA3eiIvPjwvc3ZnPg==) center/90% no-repeat;
+}
+
+.alt-3btY0e .item-1GzJrl:nth-child(4) {
+  background: var(--dnd) !important;
+  -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTkuMzEgMTdsMi40NC0yLjQ0TDE0LjE5IDE3bDEuMDYtMS4wNi0yLjQ0LTIuNDQgMi40NC0yLjQ0TDE0LjE5IDEwbC0yLjQ0IDIuNDRMOS4zMSAxMGwtMS4wNiAxLjA2IDIuNDQgMi40NC0yLjQ0IDIuNDRMOS4zMSAxN3pNMTkgM2gtMVYxaC0ydjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTZINVY4aDE0djExeiIvPjwvc3ZnPg==) center/90% no-repeat;
+}
+
+.alt-3btY0e .item-1GzJrl:nth-child(5) {
+  background: var(--invisi) !important;
+  -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDQuNUM3IDQuNSAyLjczIDcuNjEgMSAxMmMxLjczIDQuMzkgNiA3LjUgMTEgNy41czkuMjctMy4xMSAxMS03LjVjLTEuNzMtNC4zOS02LTcuNS0xMS03LjV6TTEyIDE3Yy0yLjc2IDAtNS0yLjI0LTUtNXMyLjI0LTUgNS01IDUgMi4yNCA1IDUtMi4yNCA1LTUgNXptMC04Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzIDMtMS4zNCAzLTMtMS4zNC0zLTMtM3oiLz48L3N2Zz4=) center/90% no-repeat;
+}
+
+.alt-3btY0e .item-1GzJrl:hover {
+  transform: scale(1.3);
+}
+
+  /* C. Context Menu */
+#app-mount .contextMenu-HLZMGh {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  border: 1px solid black;
+}
+
+#app-mount .itemGroup-1tL0uz {
+  border-color: black;
+}
+
+#app-mount .itemSubMenu-1vN_Yn:hover,
+#app-mount .item-1Yvehc:hover {
+  background-color: var(--sheer);
+}
+
+  /* D. User Popout */
+#app-mount .headerNormal-T_seeN,
+#app-mount .body-3iLsc4, 
+#app-mount .footer-1fjuF6, 
+#app-mount .headerPlaying-j0WQBV,
+#app-mount .headerXbox-3G-4PF,
+#app-mount .headerSpotify-zpWxgT,
+#app-mount .headerStreaming-2FjmGz{
+  background: transparent;
+}
+
+.rolesList-22qj2L {
+  max-height: 70px;
+  overflow: auto;
+}
+
+.role-2irmRk {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  box-sizing: content-box;
+  height: 16px;
+  margin: 3px;
+  padding: 2px;
+  position: relative;
+  line-height: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  overflow: visible;
+}
+
+.role-2irmRk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1px;
+  height: 100%;
+  width: calc(100% + 1px);
+  border-top: 21px solid;
+  border-color: inherit;
+  opacity: 0.5;
+}
+
+.roleName-32vpEy {
+  margin: 0 4px;
+}
+
+.roleCircleButton-377y0l {
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  height: 22px;
+  top: -1px;
+  left: -1px;
+  border-radius: 2px 0 0 2px;
+  width: 0px;
+  display: flex !important;
+  transition: width 0.2s;
+}
+
+.roleCircle-3xAZ1j {
+  display: none;
+}
+
+.addButton-pcyyf6 {
+  line-height: 10px;
+  width: 22px;
+  box-sizing: border-box;
+  height: 22px;
+}
+
+.roleRemoveIcon-2-TeGW {
+  display: block;
+}
+
+.role-2irmRk:hover .roleCircleButton-377y0l {
+  transition: width 0.2s;
+  width: 22px;
+}
+
+.addButtonIcon-1NMJ8u {
+  height: 7px;
+  width: 7px;
+}
+
+#app-mount .userPopout-3XzG_A {
+  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .headerPlaying-j0WQBV {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .headerXbox-3G-4PF,
+#app-mount .headerSpotify-zpWxgT {
+  background: linear-gradient(var(--online-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .headerStreaming-2FjmGz {
+  background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+  /* E. Message Popout */
+#app-mount .messagesPopoutWrap-1MQ1bW {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .header-ykumBX,
+#app-mount .themedPopout-25DgLi .footer-SRC48P {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .messageGroupWrapper-o-Zw7G {
+  background: var(--sheer) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border-color: var(--quatro);
+}
+
+#app-mount .top-28JiJ- .itemSelected-1qLhcL {
+  color: var(--greyple) !important;
+  border-color: var(--greyple) !important;
+}
+
+  /* F. User Modal */
+#app-mount .inner-1JeGVc {
+  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+  border-radius: 10px;
+}
+
+#app-mount .topSectionNormal-2-vo2m,
+#app-mount .body-3ND3kc,
+#app-mount .topSectionPlaying-1J5E4n,
+#app-mount .topSectionXbox-3fWLjS,
+#app-mount .topSectionSpotify-1lI0-P,
+#app-mount .topSectionStreaming-1Tpf5X{
+  background: transparent;
+}
+
+#app-mount .topSectionPlaying-1J5E4n {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .topSectionXbox-3fWLjS,
+#app-mount .topSectionSpotify-1lI0-P {
+  background: linear-gradient(var(--online-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .topSectionStreaming-1Tpf5X {
+  background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+  /* G. Search Popout & Results */
+#app-mount .container-3ayLPN {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .option-96V44q:after {
+  background: linear-gradient(90deg,transparent,var(--sheer) 80%);
+}
+
+#app-mount .option-96V44q.selected-rZcOL-,
+#app-mount .searchAnswer-3Dz2-q, 
+#app-mount .searchFilter-2ESiM3 {
+  background-color: var(--veil);
+}
+
+#app-mount .channelSeparator-1X1FuH .channelName-1QajIf {
+  background-color: var(--sheer);
+  padding-left: 8px;
+  border-radius: 5px 5px 0 0;
+}
+
+#app-mount .searchResult-3pzFAB:before {
+  background-image: linear-gradient(0deg,transparent,var(--sheer));
+}
+
+#app-mount .searchResult-3pzFAB .hit-NLlWXA {
+  background: var(--sheer);
+  box-shadow: 0 0 10px 6px var(--sheer);
+  border-color: black;
+}
+
+#app-mount .jumpButton-Ia2hRJ {
+  background-color: var(--blurple);
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+#app-mount .searchBar-1MOL6S {
+  background-color: var(--veil);
+}
+
+#app-mount .quickMessage-1yeL4E {
+  background: var(--sheer) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border-color: black;
+}
+
+#app-mount .jumpButton-Ia2hRJ:hover {
+  background-color: var(--greyple);
+}
+
+#app-mount .searchResult-3pzFAB:after {
+  background: linear-gradient(180deg,transparent,var(--sheer));
+}
+
+#app-mount .searchResultsWrap-2DKFzt {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .searchHeader-1l-wpR {
+  background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, 
+#app-mount .searchHeader-1l-wpR .tab-2Ixsn0:hover {
+  color: var(--greyple);
+  border-color: var(--greyple);
+}
+
+  /* H. Upload Modal */
+.uploadModal-2ifh8j {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  border-color: var(--sheer)
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j:hover {
+  width: 93%;
+  height: 160%;
+  margin-top: -95px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+  background: transparent;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+#app-mount .checked-3_4uQ9,
+.theme-brand .inner-zqa7da,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+  background-color: var(--sheer);
+  transition: all .2s ease-in-out;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: var(--veil);
+}
+
+/* IX. Keyframes */
+
+@keyframes fadeIn {
+  to {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translate(0, 100%);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translate(0, -100%);
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translate(-100);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translate(100%);
+  }
+}
+
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes show-status {
+  from {
+    transform: translateY(100%) translateX(0%) translateZ(0px);
+  }
+}
+
+@keyframes status {
+  from {
+    transform: scale(0);
+    opacity: 0
+  }
+}
+
+@keyframes context-open-invertY {
+  0% {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@keyframes context-open-new {
+  0% {
+    transform: scale(1, 0.8);
+  }
+}
+
+@keyframes context-open {
+  0% {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@keyframes popoutanim-inner {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes popoutanim-status {
+  0% {
+    transform: scale(0) translateY(-100%);
+  }
+  100% {
+    transform: scale(1) translateY(-100%);
+  }
+}
+
+@keyframes popoutanim-min {
+  0% {
+    transform: translateX(-50%) scale(0);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+
+/* X. Custom CSS */
+.contentRegion-3nDuYy #bd-customcss-attach-controls, 
+#bd-customcss-detach-container #bd-customcss-attach-controls {
+  background: var(--quatro);
+}
+
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, 
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+  background: var(--tres);
+}
+
+.bd-detached-editor .chat .title-3qD0b- > div:last-child,
+.bd-detached-editor .headerBar-UHpsPw > div:last-child {
+    margin-right: 0 !important;
+}
+
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-detach-controls-button > span {
+    font-size: 0 !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls .checkbox-group {
+    order: 1;
+}
+
+/* Main CSS Box */
+.contentColumnDefault-1VQkGM .ace-monokai {
+  background-color: var(--tres);
+  color: white;
+}
+
+/* Gutter Line */
+.ace-monokai .ace_gutter {
+  background: var(--quatro);
+  color: var(--streaming);
+}
+
+/* Shorter Highlight Line */
+.ace-monokai .ace_gutter-active-line {
+  background-color: var(--dos);
+}
+
+/* When Clicking and Dragging through the codes to highlight them */
+.ace-monokai .ace_marker-layer .ace_selection {
+  background: var(--main-color);
+}
+
+/* Long Highlight Line */
+.ace-monokai .ace_marker-layer .ace_active-line {
+  background: #121212;
+}
+
+/* Bracket Border */
+.ace-monokai .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid var(--hover-color);
+}
+
+/* Comment Code */
+.ace-monokai .ace_comment {
+  color: var(--online);
+}
+
+
+
+
+/* Anti-BetterDocs 
+*  Bulk by Tropix
+*  Modified by Lil Monster
+*/
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://betterdocs.us"]:after,
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://BetterDocs.us"]:after {
+    content:'<---- WARNING: DO NOT USE THIS WEBSITE TO DOWNLOAD THEMES AND PLUGINS!!';
+    border-radius:3px;
+    color:#fff;
+    background:darkred;
+    margin-left: 10px;
+    padding: 1px;
+}
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://BetterDocs.us"],
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://betterdocs.us"] {
+    color:white;
+    pointer-events:none;
+}
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://BetterDocs.us"]::selection,
+.containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://betterdocs.us"]::selection {
+    background-color:darkred;
+}
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"]:after,
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"]:after {
+    display:none;
+}
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"]:before,
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"]:before  {
+    color:red;
+    content:'BetterDocs is an untrusted website, that posts themes and plugins without the creators permission. It may contain harmful plugins that could either get your account stolen, or get you into trouble with discord. Always use the BetterDiscord Server to download themes and plugins, and as always, stay safe.';
+}
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"],
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"] {
+    color:transparent !important;
+}
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"]::selection,
+.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"]::selection {
+    background:transparent !important;
+}
