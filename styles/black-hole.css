@@ -391,7 +391,8 @@
 #app-mount .headerBar-UHpsPw,
 #app-mount .header-39GIC8,
 #app-mount .chat-3bRxxu .channelTextArea-rNsIhG,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud:hover {
+#app-mount .friendsTable-133bsv .friendsRow-2yicud:hover,
+#app-mount .video-1FfuMD {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
 }
@@ -425,7 +426,8 @@
 #app-mount .content-yTz4x3,
 #app-mount .chat-3bRxxu form .inner-zqa7da,
 #app-mount .chat-3bRxxu form,
-#app-mount .itemBackground-2vEldQ {
+#app-mount .itemBackground-2vEldQ,
+#app-mount .wrapper-29NfPK {
   background-color: transparent;
 }
 
@@ -492,6 +494,10 @@
 #app-mount .markup-2BOw-j code, 
 #app-mount .markup-2BOw-j code.inline {
   background: transparent;
+}
+
+.aka-1mqp34 {
+  background: var(--blurple-sheer);
 }
 
   /* B. Members List */
