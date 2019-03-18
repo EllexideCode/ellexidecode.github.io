@@ -1,4 +1,3 @@
-
 @import url(https://fontlibrary.org/face/horta); /* 'HortaRegular' */
 @import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
 @import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
@@ -105,13 +104,22 @@
 *     A. Server Menu
 *     B. User Status
 *     C. Context Menu
-*     D. User Popout
-*     E. Message Popout
-*     F. User Modal
-*     G. Search Popout & Results
-*     H. Upload Modal
+*     D. Dropdown Menus
+*  IX. Popouts
+*     A. User Popout
+*     B. Message Popout
+*     C. User Modal
+*     D. Search Popout & Results
+*     E. Upload Modal, Attach Popout, Add Game popout 
+*     F. Tooltips
+*     G. Autocomplete & Everyone Popout
+*     H. Join Guild Modal
+*     I. Gift Nitro and Gif Picker
+*     J. Emoji Picker
+*     K. Game Preview
 *     
-*  IX. Keyframes
+*  X. Keyframes
+*  XI. Custom CSS
 */
 
 
@@ -361,7 +369,8 @@
 #app-mount .gameLibrary-TTDw4Y,
 #app-mount .container-3gCOGc,
 #app-mount .applicationStore-1pNvnv,
-#app-mount .pageWrapper-1PgVDX {
+#app-mount .pageWrapper-1PgVDX,
+#app-mount .root-1BQpZw {
   background-color: transparent !important;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -434,9 +443,14 @@
 .gameLibrary-TTDw4Y .scrollerWrap-2lJEkd,
 .friendsTable-133bsv,
 .applicationStore-1pNvnv .scrollerWrap-2lJEkd,
-.activityFeed-1C0EmJ .scrollerWrap-2lJEkd {
+.activityFeed-1C0EmJ .scrollerWrap-2lJEkd,
+.root-1BQpZw .scrollerWrap-2lJEkd {
   background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
+}
+
+.codeRedemption-2CtsK6 {
+  padding: 0 20px;
 }
 
 .chat-3bRxxu .channelTextArea-rNsIhG {
@@ -543,7 +557,10 @@
 
 #app-mount .header-1RC2Wb,
 #app-mount .bda-slist li,
-#app-mount .notDetected-33MY4s {
+#app-mount .notDetected-33MY4s,
+#app-mount .card-FDVird:before,
+#app-mount .container-2Zlzt0,
+#app-mount .tier1Banner-1B_WXY {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
 }
@@ -558,7 +575,8 @@
   background: radial-gradient(ellipse at top,transparent,var(--sheer)),linear-gradient(90deg,var(--sheer) 0,transparent 40%,transparent 60%,var(--sheer)),linear-gradient(0deg,var(--sheer) 10%,transparent 70%);
 }
 
-#app-mount .iconCircle-1dlYo0 {
+#app-mount .iconCircle-1dlYo0,
+#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   background: var(--sheer);
 }
 
@@ -578,6 +596,15 @@
 #app-mount .section-3TvauS {
   background: var(--sheer)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
+}
+
+#app-mount .nowPlaying-284llR {
+  background: var(--online-sheer) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
+}
+
+#app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
+#app-mount .nowPlaying-284llR .gameNameInput-385LoS:hover {
+  background-color: var(--sheer);
 }
 
 #app-mount .mediaFade-1SdEfL {
@@ -790,7 +817,23 @@
   background-color: var(--sheer);
 }
 
-  /* D. User Popout */
+  /* D. Dropdown Menus */
+#app-mount .select-2TCrqx .Select-menu-outer,
+#app-mount .popout-2sKjHu {
+  background: var(--quatro)  url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
+  background-attachment: fixed;
+  border: 1px solid black;
+}
+
+#app-mount .select-2TCrqx .Select-option.is-focused, 
+#app-mount .select-2TCrqx .Select-option:hover,
+#app-mount .optionActive-KkAdqq {
+  background: var(--sheer);
+}
+ 
+/* IX. Popouts and Modals */
+
+  /* A. User Popout */
 #app-mount .headerNormal-T_seeN,
 #app-mount .body-3iLsc4, 
 #app-mount .footer-1fjuF6, 
@@ -893,7 +936,7 @@
   background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
 }
 
-  /* E. Message Popout */
+  /* B. Message Popout */
 #app-mount .messagesPopoutWrap-1MQ1bW {
   background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
@@ -916,7 +959,7 @@
   border-color: var(--greyple) !important;
 }
 
-  /* F. User Modal */
+  /* C. User Modal */
 #app-mount .inner-1JeGVc {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
   border-radius: 10px;
@@ -944,7 +987,7 @@
   background: linear-gradient(var(--streaming-sheer), transparent 80%), url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
 }
 
-  /* G. Search Popout & Results */
+  /* D. Search Popout & Results */
 #app-mount .container-3ayLPN {
   background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
 }
@@ -1015,8 +1058,9 @@
   border-color: var(--greyple);
 }
 
-  /* H. Upload Modal & Attach Popout */
-.uploadModal-2ifh8j {
+  /* E. Upload Modal, Attach Popout, Add Game popout */
+.uploadModal-2ifh8j,
+#app-mount .addGamePopout-2RY8Ju {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
   border-radius: 10px;
@@ -1084,7 +1128,7 @@ background-attachment: fixed;
   background: var(--uno);
 }
 
-  /* I. Tooltips */
+  /* F. Tooltips */
 .tooltip-1OS-Ti {
   border-radius: 5px !important;
 }
@@ -1127,7 +1171,7 @@ background-attachment: fixed;
   animation: fadeFromTop 200ms;
 }
 
-  /* J. Autocomplete & Everyone Popout */
+  /* G. Autocomplete & Everyone Popout */
 #app-mount .autocomplete-1vrmpx,
 #app-mount .everyonePopout-nEbJY3 {
   background: linear-gradient(transparent, var(--blurple-sheer) 80%),var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
@@ -1144,7 +1188,7 @@ background-attachment: fixed;
   background-attachment: fixed;
 }
 
-  /* K. Join Guild Modal */
+  /* H. Join Guild Modal */
 #app-mount .action-1lSjCi {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
@@ -1206,7 +1250,134 @@ background-attachment: fixed;
   transition: all .2s ease-in-out;
 }
 
-/* IX. Keyframes */
+  /* I. Gift Nitro and Gif Picker */
+#app-mount .option-1l2vXE {
+  background: var(--veil);
+}
+
+#app-mount .categoryFadeBlurple-1j72_A {
+  background: var(--blurple) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  opacity: .7;
+}
+
+#app-mount .categoryFade-2ybR1J {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  opacity: .4;
+}
+
+#app-mount .categoryFade-2ybR1J:hover {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  opacity: .7;
+}
+
+  /* J. Emoji Picker */
+#app-mount .emojiPicker-3m1S-j,
+#app-mount .diversitySelector-tmmMv0 .popout-2nUePc {
+  background: var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+  border: 1px solid black;
+}
+
+#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG {
+  background: transparent;
+}
+
+#app-mount .diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
+  background-color: var(--veil);
+}
+
+#app-mount .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+  background: var(--veil);
+}
+
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+  background: var(--uno) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/frequent.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/custom.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/people.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/nature.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/food.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/activity.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/travel.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/objects.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/symbols.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
+}
+
+#app-mount .sadImage-2ph8SI {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/sadDiscord.svg);
+}
+
+  /* K. Game Preview */
+#app-mount .gamePreview-9weYR2 {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
+  background-attachment: fixed;
+}
+
+.news-2KwXHF,
+#app-mount .body-1SVoBw {
+  background: transparent;
+}
+
+.newsLink-38Naqi:hover {
+  background: var(--sheer);
+}
+
+/* X. Keyframes */
 
 @keyframes fadeIn {
   to {
@@ -1365,7 +1536,7 @@ background-attachment: fixed;
   }
 }
 
-/* X. Custom CSS */
+/* XI. Custom CSS */
 .contentRegion-3nDuYy #bd-customcss-attach-controls, 
 #bd-customcss-detach-container #bd-customcss-attach-controls {
   background: var(--quatro);
