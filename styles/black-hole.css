@@ -182,7 +182,8 @@
 
 #app-mount .bannerImage-1jOskm {
   -webkit-mask: linear-gradient(black, transparent);
-  mask: linear-gradient(black, transparent)
+  mask: linear-gradient(black, transparent);
+  border-radius: 10px 10px 0 0;
 }
 
   /* B. Channel Groups and Individual Channels */
