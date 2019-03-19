@@ -650,7 +650,7 @@
     transform: translateX(-50%);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(-5%);
   }
 }
 
@@ -706,14 +706,26 @@
   background: transparent;
 }
 
-#app-mount .typing-2GQL18 {
-  margin-bottom: 54px;
-  margin-left: 10px;
-  background-color: rgba(0, 0, 0, .4);
-  padding: 0 10px;
-  max-width: 60%;
-  width: fit-content;
-  border-radius: 10px 10px 0 0;
+#app-mount .chat-3bRxxu form .typing-2GQL18 {
+  background-color: var(--sheer);
+  bottom: 100%;
+  padding-left: 20px;
+  z-index: 0;
+  animation: opacity 300ms ease;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: auto;
+  padding-right: 20px;
+  padding-top: 0px;
+  border-radius: 5px 5px 0 0;
+  margin-left: 15px;
+  box-shadow: 0 -3px 20px rgba(0, 0, 0, .1);
+  opacity: 1;
+  transition: all 200ms ease;
+  text-overflow: ellipsis;
+  z-index: 5;
 }
 
   /* D. Cards and Tiles */
