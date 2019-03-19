@@ -180,6 +180,11 @@
   background-color: transparent;
 }
 
+#app-mount .bannerImage-1jOskm {
+  -webkit-mask: linear-gradient(black, transparent);
+  mask: linear-gradient(black, transparent)
+}
+
   /* B. Channel Groups and Individual Channels */
 .containerDefault-3GGEv_, 
 .containerDragAfter-3TEhpe, 
