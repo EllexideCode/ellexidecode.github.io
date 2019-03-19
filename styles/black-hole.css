@@ -743,7 +743,8 @@
 #app-mount .card-FDVird:before,
 #app-mount .container-2Zlzt0,
 #app-mount .tier1Banner-1B_WXY,
-#app-mount .emptyState-2-sT0o {
+#app-mount .emptyState-2-sT0o,
+#app-mount .loading-17PYl_ {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
 }
@@ -1516,7 +1517,7 @@
 
 /* X. Modals */
   /* A. User Modal */
-#app-mount .inner-1JeGVc {
+#app-mount .inner-1JeGVc .root-SR8cQa {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left fixed;
   border-radius: 10px;
 }
@@ -1545,7 +1546,9 @@
 
   /* B. Upload Modal */
 .uploadModal-2ifh8j,
-#app-mount .addGamePopout-2RY8Ju {
+#app-mount .addGamePopout-2RY8Ju,
+#app-mount .inner-1JeGVc .container-3qKHyN,
+#app-mount .keyboardShortcutsModal-3piNz7 {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left !important;
   background-attachment: fixed;
   border-radius: 10px;
@@ -1585,8 +1588,7 @@ background-attachment: fixed;
 }
 
 #app-mount .footer-2yfCgX,
-#app-mount .quickswitcher-3JagVE,
-#app-mount .keyboardShortcutsModal-3piNz7 {
+#app-mount .quickswitcher-3JagVE {
   background: transparent;
   box-shadow: none;
   -webkit-box-shadow: none;
