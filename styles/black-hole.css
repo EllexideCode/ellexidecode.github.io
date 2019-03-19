@@ -1898,8 +1898,8 @@ background-attachment: fixed;
 .containerCozy-336-Cz .markup-2BOw-j .anchor-3Z-8Bb[href*="https://BetterDocs.us"]:after {
     content:' !! WARNING: BetterDocs is not affiliated with BetterDiscord. Files may be harmful. !!';
     border-radius:3px;
-    color:#fff;
-    background:darkred;
+    color:darkred;
+    font-weight: bolder;
     margin-left: 10px;
     padding: 1px;
 }
@@ -1916,9 +1916,14 @@ background-attachment: fixed;
 .embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"]:after {
     display:none;
 }
-.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"]:before,
-.embed-IeVjo6 .anchor-3Z-8Bb[href*="https://betterdocs.us"]:before  {
-    color:red;
+.embed-IeVjo6 .anchor-3Z-8Bb:not(.embedThumbnail-2Y84-K)[href*="https://BetterDocs.us"]:before,
+.embed-IeVjo6 .anchor-3Z-8Bb:not(.embedThumbnail-2Y84-K)[href*="https://betterdocs.us"]:before  {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    font-weight: bolder;
+    line-height: 29px;
     content:'BetterDocs is not affilited with BetterDiscord. It is a website that posts themes and plugins without the creators permission. It may contain harmful plugins that could either get your account stolen, or get you into trouble with discord. Always use the BetterDiscord Server to download themes and plugins for approved versions. Stay safe!';
 }
 .embed-IeVjo6 .anchor-3Z-8Bb[href*="https://BetterDocs.us"],
