@@ -705,7 +705,7 @@
 #app-mount .status-2s6iDp,
 #app-mount .status-2kJpnA,
 #app-mount .status-1ibiUI {
-  border: none;
+  border-color: transparent;
 }
 
   /* C. Top Bar & Typing Status */
