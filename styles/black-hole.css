@@ -830,7 +830,8 @@
 
 .listingSmall-d9e5gC .purchaseUnit-2lxci3,
 #app-mount .root-1bFE0x,
-#app-mount .item-2yFVoY {
+#app-mount .item-2yFVoY,
+#app-mount .card-NB61oR {
   background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
 }
 
