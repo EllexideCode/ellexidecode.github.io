@@ -746,13 +746,16 @@
 #app-mount .header-1RC2Wb,
 #app-mount .bda-slist li,
 #app-mount .notDetected-33MY4s,
-#app-mount .card-FDVird:before,
 #app-mount .container-2Zlzt0,
 #app-mount .tier1Banner-1B_WXY,
 #app-mount .emptyState-2-sT0o,
 #app-mount .loading-17PYl_ {
   background: var(--veil) url(https://www.freeiconspng.com/uploads/twinkle-star-png-stars-9.png) top left;
   background-attachment: fixed;
+}
+
+#app-mount .card-FDVird:before {
+  background: linear-gradient(to right, var(--blurple-sheer), var(--veil));
 }
 
 #app-mount .card-rJBFl3,
@@ -843,7 +846,8 @@
 #app-mount .bar-2Qqk5Z,
 .themeDefault-24hCdX,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
+#app-mount .interactive-1FxC7B:hover {
   background-color: var(--sheer);
 }
 
@@ -851,12 +855,18 @@
   border-color: black;
 }
 
-#app-mount .accountBtnInner-sj5jLs {
+#app-mount .accountBtnInner-sj5jLs,
+#app-mount .button-mM-y8i,
+#app-mount .restoreButton-22-SIW {
   background-color: var(--veil);
 }
 
 #app-mount .accountBtnInner-sj5jLs:hover {
   background-color: var(--sheer);
+}
+
+#app-mount .background-yZEZik {
+  stroke: var(--sheer);
 }
 
 /* VI. Top Layers */
