@@ -702,12 +702,17 @@
   background-attachment: fixed;
 }
 
+#app-mount .elevationHigh-1PneE4[style*="background-color: rgba(32, 34, 37, 0.9)"] {
+  background: linear-gradient(to right, var(--blurple-sheer), transparent 80%), var(--veil) var(--stars) top left fixed !important;
+}
+
 #app-mount .status-2s6iDp,
 #app-mount .status-2kJpnA,
 #app-mount .status-1ibiUI {
   border-color: transparent;
   right: -4px;
 }
+
 
   /* C. Top Bar & Typing Status */
 #app-mount .search-2oPWTC .searchBar-3dMhjb {
