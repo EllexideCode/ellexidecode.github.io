@@ -669,6 +669,11 @@
   background: linear-gradient(var(--greyple-sheer), transparent 80%), var(--uno) var(--stars) top left fixed;
 }
 
+  /* 3. Download Discord */
+#app-mount .backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"] {
+  background: linear-gradient(transparent, var(--blurple-sheer) 80%), var(--quatro) var(--stars) top left fixed !important;
+}
+
   /* B. Members List */
 #app-mount .members-1998pB {
   background-color: transparent;
