@@ -1440,7 +1440,8 @@
   background: var(--veil);
 }
 
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+#app-mount .quickSelectPopout-X1hvgV {
   background: var(--uno) var(--stars) top left !important;
   background-attachment: fixed;
 }
