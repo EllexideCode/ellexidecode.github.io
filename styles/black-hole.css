@@ -1762,6 +1762,8 @@ background-attachment: fixed;
   /* E. Incoming Call */
 #app-mount .incomingCallInner-2VmFiR {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left no-repeat fixed;
+  border-color: var(--blurple-sheer);
+  border-radius: 10px;
 }
 
 #app-mount .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
