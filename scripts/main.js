@@ -15,8 +15,14 @@ $(document).ready(()=>{
     $(".scrollerWrap").fadeOut(200);
     setTimeout(function(){
       $(opens).fadeIn(200);
-      $(opens).addClass("open")
-      curOpen = opens;
+      $(opens).addClass("open");
     }, 200);
   });
+
+    switch($("#elle").attr("talk")) {
+      case "play":
+        $("<img>", {
+          style: "background: url()"
+        })
+    }
   });
