@@ -38,7 +38,7 @@ body {
 
 #elle {
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 2%;
   height: 17vw;
   width: 17vw;
@@ -50,11 +50,14 @@ body {
 
 #elle .speech {
   position: absolute;
-  top: 10%;
+  top: 0;
   right: 0;
-  transform: translateX(100%);
+  transform: translate(50%, -25%);
   height: fit-content;
   width: fit-content;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  pointer-events: none;
 }
 
 #elle .speech img {
@@ -62,8 +65,11 @@ body {
 }
 
 #elle:hover {
-  animation-play-state: paused;
   filter: drop-shadow(0 0 2vh var(--blurple)) drop-shadow(0 0 4vh var(--greyple))
+}
+
+#elle:hover .speech {
+  opacity: 1;
 }
 
 @keyframes floatBoi {

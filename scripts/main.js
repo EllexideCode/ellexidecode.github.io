@@ -22,7 +22,25 @@ $(document).ready(()=>{
     switch($("#elle").attr("talk")) {
       case "play":
         $("<img>", {
-          style: "background: url()"
-        })
+          src: "https://ellexidecodes.xyz/assets/play-with-me.gif"
+        }).appendTo("#elle .speech");
+        break;
+      case "closed":
+        $("<img>", {
+          src: "https://ellexidecodes.xyz/assets/closed.gif"
+        }).appendTo("#elle .speech");
+        break;
+      case "giveaway":
+        $("<img>", {
+          src: "https://ellexidecodes.xyz/assets/giveaway.gif"
+        }).appendTo("#elle .speech");
+        break;
+      case "update":
+        $("<img>", {
+          src: "https://ellexidecodes.xyz/assets/new-update.gif"
+        }).appendTo("#elle .speech");
+        break;
+      default:
+        return;
     }
   });
