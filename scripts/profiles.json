@@ -1,6 +1,11 @@
 {
   "commission": [
     {
+      "name": "Reynaw [Profile Edit]",
+      "background": "https://i.imgur.com/5olSQMd.jpg",
+      "preview": "https://i.imgur.com/lG2NdaK.gif"
+    },
+    {
       "name": "Amelia Folks",
       "background": "https://i.imgur.com/HIm2Tap.png",
       "preview": "https://i.imgur.com/W05kyO8.gif"
@@ -126,8 +131,7 @@
       "preview": "https://i.imgur.com/UfjJYGg.jpg"
     }
   ],
-  "free": [
-    {
+  "free": [{
       "name": "Genevieve",
       "background": "https://i.imgur.com/djTmFIX.png",
       "preview": "https://i.imgur.com/szgBFwx.gif",
@@ -248,8 +252,7 @@
       "code": "https://pastebin.com/raw/zRSeEj5y"
     }
   ],
-  "raffle": [
-    {
+  "raffle": [{
       "name": "Flame",
       "background": "https://i.imgur.com/m5pdFI3.png",
       "preview": "https://i.imgur.com/hLUhEGq.gif"
