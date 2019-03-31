@@ -32,6 +32,9 @@ body {
   --greyple: #99AAB5;
   --dark: #2C2F33;
   --not-black: #23272A;
+  --green: #43b581;
+  --yellow: #faa61a;
+  --red: #f04747;
 
   --font-size: 2.5vh;
 }
@@ -552,6 +555,18 @@ h3 {
 
 .blurple {
   color: var(--blurple);
+}
+
+.green {
+  color: var(--green);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.red {
+  color: var(--red)
 }
 
 a:not(.button) {
