@@ -50,7 +50,7 @@ $.ajax({
         class: "fontContainer"
       }), quote;
 
-      if(!nextQuote) {
+      if(nextQuote == null) {
         nextQuote = lastQuote;
         quote = quotes[lastQuote];
       } else if (nextQuote == lastQuote) {
