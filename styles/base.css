@@ -180,7 +180,7 @@ body {
 }
 
 .scroller {
-  padding: 18vh 20vw 0 20vw;
+  padding: 18vh 15vw 0 25vw;
   height: 100%;
   width: calc(100% + 1.7vw);
   overflow: auto;
@@ -228,6 +228,88 @@ body {
   cursor: pointer;
 }
 
+/* =============== fonts ==================== */
+#fonts textarea {
+  background: rgba(0, 0, 0, 0.3);
+  border: #999;
+  outline: none;
+  height: 5vh;
+  width: 55vw;
+  padding: 1vh;
+  font-family: monospace;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fontContainer {
+  position: relative;
+  height: 23vw;
+  width: 28vw;
+  margin: 1vw 0;
+  box-shadow: 0 0 1vh #444;
+  padding: 2vw;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.fontName {
+  height: 5vw;
+  width: 24vw;
+  padding-bottom: 3vh;
+  border-bottom: .2vh solid var(--not-black);
+  text-align: center;
+  font-family: "Big Noodle Titling", sans-serif;
+  font-size: 3vw;
+  color: var(--blurple);
+  line-height: 2vw;
+}
+
+.fontName span {
+  font-size: 2.5vh;
+  font-family: "Product Sans", sans-serif;
+  color: var(--not-black);
+}
+
+.fontName input.size {
+  background: rgba(0, 0, 0, 0.1);
+  border: .2vh solid #999;
+  outline: none;
+  height: 4vh;
+  width: 3vw;
+  font-size: 2.5vh;
+  resize: none;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 2vh;
+  font-family: "Product Sans", sans-serif;
+  overflow: scroll;
+}
+
+input.size::-webkit-inner-spin-button, 
+input.size::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.fontPrev {
+  position: relative;
+  height: 14vw;
+  width: 24vw;
+  font-size: 3.5vh;
+  color: var(--not-black);
+}
+
+.fontPrev .scrollerWrap {
+  display: block;
+}
+
+.fontPrev .scroller {
+  padding: 5vh;
+}
+
+.fontPrev .scroller:focus {
+  outline: none;
+}
 
 /* =============== code overlay =================== */
 
@@ -299,6 +381,7 @@ body {
   width: calc(100% + 1vw);
   padding: 5vh;
   font-family: monospace;
+  resize: none;
 }
 
 #code .choices {

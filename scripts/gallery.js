@@ -319,7 +319,6 @@ var curIndex, images;
       },
       error: function(){
         console.log("LMFAO RIP");
-        console.error();
       }
     });
 });
