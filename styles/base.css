@@ -240,6 +240,7 @@ body {
   resize: none;
   overflow: hidden;
   text-align: center;
+  font-size: 2.1vh;
 }
 
 .fontContainer {
