@@ -91,7 +91,7 @@ $.ajax({
       }).appendTo(".fontContainer:last-child");
 
       $("<div>", {
-        class: "scrollerWrap"
+        class: "scrollerWrap font"
       }).appendTo(".fontContainer:last-child .fontPrev");
 
       $("<div>", {

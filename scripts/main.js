@@ -12,7 +12,7 @@ $(document).ready(()=>{
     if($(opens).is(":visible")) {
       return;
     }
-    $(".scrollerWrap").fadeOut(200);
+    $(".scrollerWrap:not(.font)").fadeOut(200);
     setTimeout(function(){
       $(opens).fadeIn(200);
       $(opens).addClass("open");
