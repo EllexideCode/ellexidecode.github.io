@@ -57,7 +57,6 @@ $.ajax({
         while(nextQuote == lastQuote) {
           nextQuote = Math.floor(Math.random() * Math.floor(quotes.length));
         }
-        console.log(nextQuote+" - "+lastQuote);
         quote = quotes[nextQuote];
         lastQuote = nextQuote;
       } else {
@@ -72,16 +71,16 @@ $.ajax({
       }).appendTo(".fontContainer:last-child");
 
       $("<br>").appendTo(".fontContainer:last-child .fontName");
-      $(".fontContainer:last-child .fontName").append("<span>Font size: </span>");
+      $(".fontContainer:last-child .fontName").append("<span>Set preview font size: </span>");
+      
       $("<input>", {
         class: "size",
-        value: "18",
         type: "number",
         step: "1",
         min: "10",
-        keyup: function() {
-            var parent = $(this).parent().parent();
-            parent.find(".scroller").css("font-size", `${$(this).val()}px`)
+        keyup: function () {
+          var parent = $(this).parent().parent();
+          parent.find(".scroller").css("font-size", `${$(this).val()}px`)
         }
       }).appendTo(".fontContainer:last-child .fontName");
 
@@ -89,11 +88,11 @@ $.ajax({
         class: "fontPrev",
         style: `font-family: ${allFonts[i]}`
       }).appendTo(".fontContainer:last-child");
-
+      
       $("<div>", {
         class: "scrollerWrap font"
       }).appendTo(".fontContainer:last-child .fontPrev");
-
+      
       $("<div>", {
         class: "scroller",
         contenteditable: "true",
