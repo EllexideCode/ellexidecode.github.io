@@ -132,6 +132,12 @@
     }
   ],
   "free": [{
+      "name": "Laplace [heavily inspired by Laplace Me mobile game]",
+      "background": "https://i.imgur.com/QeevzW3.jpg",
+      "preview": "https://i.imgur.com/nrXuZsj.gif",
+      "code": "https://pastebin.com/raw/CrH0Q5rU"
+    },
+    {
       "name": "Genevieve",
       "background": "https://i.imgur.com/djTmFIX.png",
       "preview": "https://i.imgur.com/szgBFwx.gif",
