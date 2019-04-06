@@ -41,10 +41,11 @@ body {
 
 #elle {
   position: absolute;
-  top: 25%;
-  left: 2%;
-  height: 17vw;
-  width: 17vw;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20vw;
+  width: 20vw;
   background: url(http://i.picpar.com/0Dmd.png) center/100% no-repeat;
   animation: floatBoi 3s cubic-bezier(.4, 0, 0, 1) infinite alternate;
   filter: drop-shadow(0 0 2vh var(--blurple));
@@ -77,10 +78,10 @@ body {
 
 @keyframes floatBoi {
   from {
-    transform: translateY(-10%);
+    transform: translate(-50%, -10%);
   }
   to {
-    transform: translateY(10%);
+    transform: translate(-50%, 10%);
   }
 }
 
@@ -696,4 +697,27 @@ ol li::before {
 
 ol li:nth-of-type(n+10)::before {
   content: counter(item) '. '
+}
+
+#message {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  transform: translateX(-50%);
+  font-family: "Big Noodle Titling", sans-serif;
+  font-size: 5vw;
+  color: var(--blurple);
+}
+
+#message a {
+  font-size: 2vw;
+  color: var(--not-black);
+  border-bottom: .2vh dotted currentColor;
+}
+
+#message a:hover {
+  border-bottom-style: solid;
 }
